@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffe4e7e9" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:textColor="#ff000000" android:id="@id/edit_text" android:background="@drawable/input_bar_rounded_corner" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_margin="7.0dip" android:text="" android:layout_toLeftOf="@id/text_ok_button" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" class="com.miniclip.keyboard.MyEditText" />
+    <Button android:textSize="20.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/text_ok_button" android:background="#00cd6363" android:layout_width="50.0dip" android:layout_height="fill_parent" android:text="✔" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

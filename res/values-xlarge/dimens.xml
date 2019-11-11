@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abc_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">45.000004%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">72.0%</item>
+    <dimen name="nf_action_button_front_text_padding_bottom">13.0dip</dimen>
+    <dimen name="nf_action_button_margin_sides">45.0dip</dimen>
+    <dimen name="nf_action_button_margin_sides_portrait">22.0dip</dimen>
+    <dimen name="nf_action_button_middle_section_width">207.0dip</dimen>
+    <dimen name="nf_action_button_shadow_text_padding_bottom">5.0dip</dimen>
+    <dimen name="nf_action_button_side_section_width">27.0dip</dimen>
+    <dimen name="nf_action_button_text_size">29.0dip</dimen>
+    <dimen name="nf_bg_border_bottom_component_height">49.0dip</dimen>
+    <dimen name="nf_bg_border_component_size">36.0dip</dimen>
+    <dimen name="nf_bg_border_margin_bottom">63.0dip</dimen>
+    <dimen name="nf_bg_border_margin_left">18.0dip</dimen>
+    <dimen name="nf_bg_border_margin_right">20.0dip</dimen>
+    <dimen name="nf_bg_border_margin_top">18.0dip</dimen>
+    <dimen name="nf_bg_component_size">25.0dip</dimen>
+    <dimen name="nf_bg_margin_bottom">50.0dip</dimen>
+    <dimen name="nf_bg_margin_left">45.0dip</dimen>
+    <dimen name="nf_bg_margin_right">45.0dip</dimen>
+    <dimen name="nf_bg_margin_top">54.0dip</dimen>
+    <dimen name="nf_bg_side_component_size">27.0dip</dimen>
+    <dimen name="nf_bottom_buttons_height">81.0dip</dimen>
+    <dimen name="nf_bottom_buttons_margin_bottom">-32.0dip</dimen>
+    <dimen name="nf_bottom_side_buttons_width">126.0dip</dimen>
+    <dimen name="nf_close_button_margin_right">-23.0dip</dimen>
+    <dimen name="nf_close_button_margin_top">29.0dip</dimen>
+    <dimen name="nf_close_button_size">56.0dip</dimen>
+    <dimen name="nf_content_margin">15.0dip</dimen>
+    <dimen name="nf_height_adjustment">0.0dip</dimen>
+    <dimen name="nf_news_image_height">58.0dip</dimen>
+    <dimen name="nf_news_image_width">160.0dip</dimen>
+</resources>

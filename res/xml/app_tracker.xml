@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-40602566-3</string>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_anonymizeIp">false</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <integer name="ga_sessionTimeout">60</integer>
+    <screenName name="com.appsomniacs.da2.DA2Activity">DA2 Activity</screenName>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="52" height="18" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="18">
+ <tileset firstgid="1" source="t64_new.tsx"/>
+ <layer id="1" name="tilebg" width="52" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+1T7QqDMAzM+z/XYP5sYa7b9GFsmYGs2HhCap14kD9tkrt8EZ0X92jP1iJA9IRrfUf7VNRihRfot6V2FDVm78CcIdrDgK+fOdla7HLS4Klcj9S4pi+IXAPh+5HiRoV/S19Ya4mbNWo+N/rul8wVCOsB91PjR/vCYB3drKtb+HNKPGv3wtcDcXlsjXsr8SN1OdDPSpNF3qXc8j2fjxXvnsjnUmNOLZDfzb/XkyDrsNq5C7+Qt+2V/7X41jjDvl84Fia1tkf0oA4AAA==
+  </data>
+ </layer>
+ <layer id="2" name="tile" width="52" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE91W6U4CQQzuG/jTEzFExRs5vAABIXiFRKPECwW8Ij6DL2+b7WSbyczs4RqJTb7sZnt87badXYD/J2lEFjGJ+ES8IOb+NCO3zCKmEBnElkFfQ1QRRcYAMZMQ9zHiNKFYSurgzrMDfi3Xjjjn4PXxBrGGOADz+yGhnq8ibhGbiCWHre63yDw2e5XvG5jnKAV+PRcOLorTBr+Xrj5OI/qIHtuH7XmH7UsBuXQ5hyuD7hD8euYD+BqIFmIYIjeSZ4PtHqIQ0UeXEXj5fhh0ct50/QRfaQ9OwN+FPGIZsSByo2f7AXlQLTnELvhzRfP7IGKbdo6e3YN3Zr2KfE09SGl6mks6P2h+08xHe7AB3i5kOCey7XFuKyLPDOdaELnlOfcd9muzr+J8RNyBt5PrfJ/lWF/M/8S2JeFHMfSZk/NWFD7Uq5FBp3aH5q5v0ZP/tsgtJ3RVi0+Y5wONk3T6ntUtcVxc1EP6Tum9J1QQZcHfDKg9Ct40TtN53IkQLwqniasbI54LlwYOfX/iQu+h6eypJVxPWA7bLMfpFc0l/Ue9g30f43JXDPWE2Z9xhel7qb7Jv80tOXo/jHMG7n+OBuIIvHNJr02dV+qq/mEqwo+uLb6n73vQmaZ8lV1TxGmKWGVhq+wIQ0sdttpkTF0UR1ih+qgu9Z6i+I6zNMD8fpKUb+QywcKgDgAA
+  </data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="1" name="sp_p_00" x="1600" y="14"/>
+  <object id="2" name="spritebg" x="2084" y="334">
+   <properties>
+    <property name="sprite" value="palmTree"/>
+   </properties>
+  </object>
+  <object id="3" name="spritebg" x="934" y="162">
+   <properties>
+    <property name="sprite" value="bushFan"/>
+   </properties>
+  </object>
+  <object id="4" name="spritebg" x="2754" y="404">
+   <properties>
+    <property name="sprite" value="bushPalm"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

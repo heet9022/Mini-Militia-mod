@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="41" height="66" tilewidth="64" tileheight="64" infinite="0" nextobjectid="87">
+ <tileset firstgid="1" source="t64_new.tsx"/>
+ <layer name="tilebg" width="41" height="66">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+1Z2W7CMBDM/39Pn3jvQdWDirug8ivFUqxOh1lnIetAq4xkqRB7PZk9vKZNM2LEiGtgRuNa+5b2PhzHXTu+zrDbF7hv194H2LdrntemlyO+c8neBOZNgmx64PX1lp6lvz+ddiPgtbeDefsgm16wPUvXrOVH86Oh8kON/Gd+H4V9kpZ7sRYHr4/kaA3ktG5+x+HOsT4Cb8fxUthjQ5yWx7ECzjj3lWxFo6TJ03E8w9xNy9XSO9kq5f2lsLTA+EKOrCHqnZ6tmjqYtbZRI+Zcyo+k92MlbsgRNWL/eWoNat5VRy/hp3S5b59vm/M4dp1Fl3JUY9E+5xzhwTERrWGJY86FeWGOioka6Npf+Tprh+D+I5qjyuEFzFF9xbI59euuEsd3gwvXPc6HeXOaG+m7GvGIYL/muqfib23YWBjfR4LrIdYlPsNZs/SONc5ChVKtwbNuQ+umlfjgPmmPhw6OOH8P63JMRCPnAsdd18jzp2JdNLxncYox75kYDe6zrLMu+3io/huR98QanqHOXs871UCpD8P88MZqNOb0WcVcrjVd8cB+qMUxwdLS4sd+4JrZF3jXQyj/lXI+I8Vr9HmdbKr39sYe8sm9cKSO2F+zlpfkxzKQWwbmB/vLkxvMMduL9rXqXaw67bkX1PgNQPWAeH9B3TAeat4LGKq3t+7YnAu17gUKau/EEftpS+/oWmhB9dKcR0rHrVhbA0ofVY/UHTCBeatzqy9UTGVfo45pb3WXYt41OCqcc/9U8VjjvO6jhVobHaOWD9U8RvqfkYrH6Pu16imsOsNnuuJt9SjRsGoz6zNUfvxlDPGbTV/cul/V/UHlq3XPGAJWbjLHoXJ4xLC4Zux5ceuxV7rjjhjxn/ANLGdEpkgqAAA=
+  </data>
+ </layer>
+ <layer name="tile" width="41" height="66">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+1aXU9TQRDdH9FGRUDefONF4kNraXkxJjbxC6OJiSJVqR8xguILT/rLnZO7I8Nwtt2we6tpepIJ7WXvzNyz87UXQlhhheXDTZHnItdE1hdod0OkGz93RDZnrP0k8ivK70o6c2DtzrN9bD5/r6QzB8fu+yzbJ+bzj0o6c3Divqds34q234lMot3t+Lv7Ig+uoDMXn0VO4+efIl9CE0sfQpMfZ9GXGyKvRV6J3BN5I7IWfX8h8lJkS+R2QmcJ9kWehSZnJ9H+HZGd+BNyZNb3RPrm+9TcYwV8rxv9JdgVeRp/qn5wdCDyNjTcwQeWm51wzumeyCiu70ffHhv9JRiIPBEZR3uWI+zjdrR3dPnWvxzpOgvw+0hkGH0tgdWBfdQ9AnajnbHx3fozjr8fxJ+Axoyun5rfXRXIhTXzvWd0wke/x7DpObXr7POglpfGogLcbIXL+6U8KRB/mk9dc30YOFf++UsAHhCLnh/sm+3LvbgO9cfGLZ7F8o1nRk+fhPI+qMD+KT9Wp+aTBasl4Nfmheafr1slUH6g0+4ZfPd1A/aZ3z5396O+fqgH+On5gR3vI/LA++jjFkCM1vRPbXsumO0BucbqI3ysFYtWp/cRth+SdV1yzd9bo3Z7sLo3JXZQA3xMDDPvLUUqHr0dtte2blt9tXJa0SE62X75Wgj4OgogvmvnDKt78Mf7iGfxec32uo2cYX2L5brt59Yfz1nNPqhIzVcs13PqDFtXChZ72P+c+siepY3aw2YXxg+b11j+497S+duD+cNiil1L5X8bPFqd7L3Jt9Cc6U8v3prMt9o8DgKfrzCv2RjAvt4NF/MhlUdt8wjgXHjgruFZ9Gw9616WW6UAb35vGD+sz6RmCj97lMLP0mrH9w+sY3Mvy5navTDVP2x/RB7sEH9wvfb8kAtfm/Wdj+fR90LUhEORj6Heu1TV6c9xrDazHu5ra6omlED5Yfma0wtZPLKaUIrcHB6QayzfNsi6UqRmxZxzGDs/sppQCuYPi0e8O31P/GEx2sYcnssZm9dzZqZSsFmKnVPY+xW2ro3ZzMejzjhfyTo24+bkeily6h7A8h89yvdmpq8ULA8ZF6w+snehbcxmbAZgXLD6yGo9i4k2wOKecYvY9bN5baDmXQ/NucDWPuYPuGWc2b3Wvz95fSUYhfN+vWeus7qOvZ6XHyl9bSBV11l+LCL2GJhtdt5ro6fkgtlmMdpGnckFOzcjRj23bbx/ykHqfycQo5tuHc4Eh2Gx/2MBpGZz/RvivHX/EqzP/G9YVI9bZqDH6bm5Vo+rjVFYXI9bYXnxBzm8e99IKgAA
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="wp_p_00" x="609" y="321">
+   <properties>
+    <property name="weapon" value="machete,riot"/>
+   </properties>
+  </object>
+  <object id="2" name="wp_p_02" x="1901" y="960">
+   <properties>
+    <property name="weapon" value="magnum,uzi"/>
+   </properties>
+  </object>
+  <object id="3" name="wp_p_03" x="1279" y="3916">
+   <properties>
+    <property name="weapon" value="smaw,sawgun,m93ba"/>
+   </properties>
+  </object>
+  <object id="4" name="wp_p_05" x="1282" y="240">
+   <properties>
+    <property name="weapon" value="shotgun,flame"/>
+   </properties>
+  </object>
+  <object id="5" name="wp_p_07" x="1280" y="803">
+   <properties>
+    <property name="weapon" value="mp5,tavor,m16"/>
+   </properties>
+  </object>
+  <object id="6" name="sp_p_00" x="1284" y="468"/>
+  <object id="7" name="sp_p_01" x="1481" y="1039"/>
+  <object id="8" name="sp_p_02" x="1436" y="2241"/>
+  <object id="9" name="sp_p_11" x="1755" y="1610"/>
+  <object id="10" name="sp_p_04" x="1076" y="1037"/>
+  <object id="11" name="sp_p_05" x="816" y="1632"/>
+  <object id="12" name="sp_p_05" x="1126" y="2237"/>
+  <object id="13" name="sp_p_06" x="738" y="2937"/>
+  <object id="14" name="wp_p_12" x="639" y="1724">
+   <properties>
+    <property name="weapon" value="ak47,tavor"/>
+   </properties>
+  </object>
+  <object id="15" name="wp_p_20" x="1598" y="777">
+   <properties>
+    <property name="weapon" value="fragnade,gasnade,proxynade"/>
+   </properties>
+  </object>
+  <object id="16" name="wp_p_21" x="1919" y="3184">
+   <properties>
+    <property name="weapon" value="boosttank"/>
+   </properties>
+  </object>
+  <object id="17" name="sp_p_10" x="1279" y="3886"/>
+  <object id="18" name="sp_p_12" x="610" y="540"/>
+  <object id="19" name="sp_p_13" x="1952" y="543"/>
+  <object id="20" name="wp_p_11" x="974" y="3586">
+   <properties>
+    <property name="weapon" value="shotgun,mp5"/>
+   </properties>
+  </object>
+  <object id="21" name="wp_p_14" x="1279" y="2958">
+   <properties>
+    <property name="weapon" value="emp,flame"/>
+   </properties>
+  </object>
+  <object id="22" name="wp_p_15" x="1921" y="1725">
+   <properties>
+    <property name="weapon" value="ak47,tavor"/>
+   </properties>
+  </object>
+  <object id="23" name="wp_p_16" x="1576" y="3588">
+   <properties>
+    <property name="weapon" value="shotgun,mp5"/>
+   </properties>
+  </object>
+  <object id="24" name="wp_p_17" x="598" y="922">
+   <properties>
+    <property name="weapon" value="magnum,uzi"/>
+   </properties>
+  </object>
+  <object id="25" name="wp_p_18" x="957" y="773">
+   <properties>
+    <property name="weapon" value="fragnade,gasnade,proxynade"/>
+   </properties>
+  </object>
+  <object id="26" name="wp_p_24" x="1277" y="1968">
+   <properties>
+    <property name="weapon" value="flame,emp"/>
+   </properties>
+  </object>
+  <object id="27" name="sp_p_26" x="1825" y="2942"/>
+  <object id="28" name="wp_p_27" x="641" y="3187">
+   <properties>
+    <property name="weapon" value="boosttank"/>
+   </properties>
+  </object>
+  <object id="29" name="wp_p_30" x="1950" y="321">
+   <properties>
+    <property name="weapon" value="machete,riot"/>
+   </properties>
+  </object>
+  <object id="30" name="wp_p_32" x="1280" y="1741">
+   <properties>
+    <property name="weapon" value="fragnade,gasnade,proxynade"/>
+   </properties>
+  </object>
+  <object id="31" name="wp_p_36" x="619" y="2424">
+   <properties>
+    <property name="weapon" value="healthpack"/>
+   </properties>
+  </object>
+  <object id="32" name="wp_p_35" x="1937" y="2358">
+   <properties>
+    <property name="weapon" value="healthpack"/>
+   </properties>
+  </object>
+  <object id="33" name="wp_p_50" x="937" y="3585">
+   <properties>
+    <property name="weapon" value="boosttank"/>
+   </properties>
+  </object>
+  <object id="34" name="wp_p_51" x="1621" y="3587">
+   <properties>
+    <property name="weapon" value="boosttank"/>
+   </properties>
+  </object>
+  <object id="35" name="wp_p_52" x="1319" y="3905">
+   <properties>
+    <property name="weapon" value="boosttank"/>
+   </properties>
+  </object>
+  <object id="36" name="wp_p_53" x="1241" y="3905">
+   <properties>
+    <property name="weapon" value="boosttank"/>
+   </properties>
+  </object>
+  <object id="37" name="fp_b_2" x="1856" y="1055">
+   <properties>
+    <property name="sprite" value="flagStationOrange"/>
+   </properties>
+  </object>
+  <object id="38" name="fp_b_1" x="637" y="984">
+   <properties>
+    <property name="sprite" value="flagStationBlue"/>
+   </properties>
+  </object>
+  <object id="39" name="fp_1" x="637" y="949"/>
+  <object id="40" name="fp_2" x="1856" y="1019"/>
+  <object id="41" name="ctf_sp_2" x="1951" y="37"/>
+  <object id="42" name="ctf_sp_1" x="607" y="31"/>
+  <object id="43" name="ctf_sp_2" x="2176" y="640"/>
+  <object id="44" name="ctf_sp_1" x="383" y="640"/>
+  <object id="45" name="ctf_sp_2" x="1765" y="2304"/>
+  <object id="46" name="ctf_sp_1" x="797" y="2304"/>
+  <object id="47" name="ctf_wp_1" x="905" y="566">
+   <properties>
+    <property name="weapon" value="flame"/>
+   </properties>
+  </object>
+  <object id="48" name="ctf_wp_2" x="1660" y="562">
+   <properties>
+    <property name="weapon" value="flame"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision">
+  <object id="49" name="co_poly_left" x="448" y="383">
+   <polygon points="1,2 31,2 45,-35 64,-63 131,2 189,2 256,-63 275,-33 289,2 319,2 319,129 257,109 257,64 63,64 63,109 2,129"/>
+  </object>
+  <object id="50" name="co_poly_left" x="449" y="540">
+   <polygon points="0,-1 62,18 62,38 107,38 126,100 96,164 96,351 85,381 63,388 41,381 30,351 31,163 0,100"/>
+  </object>
+  <object id="51" name="co_poly_left" x="661" y="577">
+   <polygon points="-1,1 45,1 45,-19 106,-38 106,-2 171,62 245,28 305,28 319,3 339,3 352,28 396,28 396,63 491,255 427,319 363,191 235,127 108,191 45,255 128,295 140,320 107,384 -21,256 -55,191 -55,133 -44,103 -20,96 45,62 -21,63"/>
+  </object>
+  <object id="52" name="co_poly_left" x="925" y="798">
+   <polygon points="-1,0 68,0 68,36 37,98 68,163 35,226 1,162"/>
+  </object>
+  <object id="53" name="co_poly_left" x="540" y="992">
+   <polygon points="2,-2 133,-2 133,35 197,161 133,288 133,419 164,480 131,544 164,608 123,696 100,704 78,696 36,607 98,544 36,481 67,417 67,353 98,288 -28,161 2,99"/>
+  </object>
+  <object id="54" name="co_poly_left" x="959" y="1057">
+   <polygon points="1,-1 22,6 34,34 34,225 1,288 -63,158 -32,97 -32,33 -22,7"/>
+  </object>
+  <object id="55" name="co_poly_left" x="928" y="1374">
+   <polygon points="-2,0 32,0 65,34 65,420 33,483 64,546 55,571 32,578 10,571 -1,545 -1,481 -32,418 30,291 -1,227 -1,160 -32,98 -2,37"/>
+  </object>
+  <object id="56" name="co_poly_left" x="605" y="1759">
+   <polygon points="2,0 68,0 69,96 36,161 68,227 68,547 35,609 -29,545 33,481 2,418"/>
+  </object>
+  <object id="57" name="co_poly_left" x="906" y="2013">
+   <polygon points="0,1 115,1 140,11 151,37 119,99 54,130 -10,99 -43,36 -33,10"/>
+  </object>
+  <object id="58" name="co_poly_left" x="926" y="2206">
+   <polygon points="1,0 68,0 68,37 98,98 67,161 67,291 35,355 67,419 67,547 34,610 -30,481 32,418 1,355 1,289 -30,226 1,159"/>
+  </object>
+  <object id="59" name="co_poly_left" x="552" y="2472">
+   <polygon points="1,0 24,-7 88,-7 152,-40 184,24 174,50 151,55 88,88 24,55 2,49 -7,23"/>
+  </object>
+  <object id="60" name="co_poly_left" x="607" y="2589">
+   <polygon points="-2,1 66,1 66,421 97,483 33,547 0,484 0,421 32,356 0,292 0,227 -31,163 31,99 -2,33"/>
+  </object>
+  <object id="61" name="co_poly_left" x="512" y="3265">
+   <polygon points="0,-1 69,-35 188,-35 256,-1 219,30 192,30 128,63 64,30 31,30"/>
+  </object>
+  <object id="62" name="co_poly_left" x="959" y="2845">
+   <polygon points="1,3 23,11 33,37 33,97 1,97 34,165 34,549 2,612 33,675 24,699 1,707 -21,700 -32,672 -32,545 -63,482 -1,419 -32,357 -32,292 -1,227 -32,164 -32,98 -97,98 -97,36 -31,36 -22,11"/>
+  </object>
+  <object id="63" name="co_poly_left" x="903" y="3613">
+   <polygon points="-2,1 116,1 143,11 153,36 143,60 120,66 57,99 -7,67 -29,60 -38,35 -29,11"/>
+  </object>
+  <object id="64" name="co_poly_middle" x="1192" y="296">
+   <polygon points="1,-1 37,-10 145,-10 174,-1 183,25 215,25 215,152 153,131 153,86 23,87 23,131 -38,152 -38,25 -8,25"/>
+  </object>
+  <object id="65" name="co_poly_middle" x="1115" y="542">
+   <polygon points="1,1 38,1 38,-68 100,-47 100,-31 166,3 231,-31 231,-46 292,-67 292,-1 327,-1 327,28 316,59 229,98 165,162 100,98 15,59 1,19"/>
+  </object>
+  <object id="66" name="co_poly_middle" x="1243" y="860">
+   <polygon points="2,2 71,2 70,38 101,99 165,165 101,228 71,291 69,427 38,484 101,548 38,676 72,746 71,804 37,867 -27,804 35,740 4,676 4,421 35,357 -27,229 -91,164 -28,99 2,39"/>
+  </object>
+  <object id="67" name="co_poly_middle" x="1246" y="1758">
+   <polygon points="0,0 67,0 67,35 35,99 66,162 56,187 34,194 12,187 0,155"/>
+  </object>
+  <object id="68" name="co_poly_middle" x="1180" y="1983">
+   <polygon points="1,2 143,3 163,64 134,64 164,95 200,95 200,113 187,154 101,193 133,258 133,514 101,577 133,642 100,705 67,642 67,514 99,449 13,410 4,384 36,321 98,257 67,193 67,127 35,64 1,64"/>
+  </object>
+  <object id="69" name="co_poly_middle" x="1216" y="2738">
+   <polygon points="1,14 64,-17 127,14 97,78 98,142 64,206 31,142 31,77"/>
+  </object>
+  <object id="70" name="co_poly_middle" x="1234" y="2968">
+   <polygon points="13,5 79,6 79,41 47,104 79,169 79,232 48,296 110,359 79,423 79,554 47,617 79,681 47,745 79,809 46,872 13,808 13,677 -18,614 44,552 13,489 44,424 13,360 13,297 45,232 12,167"/>
+  </object>
+  <object id="71" name="co_poly_middle" x="1152" y="3969">
+   <polygon points="0,-1 64,-32 193,-32 256,-1 219,30 192,30 128,63 64,30 31,30"/>
+  </object>
+  <object id="72" name="co_poly_right" x="1792" y="383">
+   <polygon points="1,2 31,2 45,-35 64,-63 131,2 189,2 256,-63 275,-33 289,2 319,2 319,129 257,109 257,64 63,64 63,109 2,129"/>
+  </object>
+  <object id="73" name="co_poly_right" x="1503" y="610">
+   <polygon points="-1,-3 40,-3 75,-36 118,-36 151,-4 290,-5 290,-72 352,-51 352,-32 396,-32 415,29 352,29 439,70 450,99 450,159 417,223 289,350 257,288 266,262 353,222 386,158 353,96 289,158 225,125 190,123 161,97 124,125 96,125 33,158 -31,286 -95,157 -31,94 -1,31"/>
+  </object>
+  <object id="74" name="co_poly_right" x="2007" y="575">
+   <polygon points="-2,2 43,2 43,-17 104,-36 104,70 74,126 74,259 8,385 0,409 -23,417 -45,410 -55,384 8,257 8,129 -23,65"/>
+  </object>
+  <object id="75" name="co_poly_right" x="1568" y="798">
+   <polygon points="-1,0 65,1 65,34 33,99 65,163 34,227 66,293 66,418 32,482 -32,352 29,290 -1,227"/>
+  </object>
+  <object id="76" name="co_poly_right" x="1821" y="1055">
+   <polygon points="0,-1 98,-1 163,-32 227,97 101,225 133,293 132,419 162,481 100,546 131,609 122,634 99,640 77,635 67,608 66,547 98,482 35,417 66,355 66,160 0,29"/>
+  </object>
+  <object id="77" name="co_poly_right" x="1564" y="1310">
+   <polygon points="3,0 69,0 69,101 100,162 36,226 3,164"/>
+  </object>
+  <object id="78" name="co_poly_right" x="1602" y="1565">
+   <polygon points="-2,3 20,11 62,100 -1,163 31,228 31,417 21,443 -2,451 -24,444 -35,416 -34,354 -66,290 -35,228 -35,38 -25,10"/>
+  </object>
+  <object id="79" name="co_poly_right" x="1551" y="2084">
+   <polygon points="16,-5 82,-5 82,221 113,284 50,348 82,414 82,669 49,732 16,670 16,603 -15,539 47,476 16,414 16,285 47,221 16,156"/>
+  </object>
+  <object id="80" name="co_poly_right" x="1878" y="1767">
+   <polygon points="9,-9 74,-9 74,348 43,410 106,473 42,537 9,473 9,283 40,218 9,154"/>
+  </object>
+  <object id="81" name="co_poly_right" x="1843" y="2403">
+   <polygon points="13,-2 141,-1 163,6 174,30 142,92 78,124 13,93 -20,30 -10,5"/>
+  </object>
+  <object id="82" name="co_poly_right" x="1920" y="2562">
+   <polygon points="0,-2 64,126 1,190 33,256 33,512 0,574 -33,512 -33,447 -1,383 -33,319 -33,63"/>
+  </object>
+  <object id="83" name="co_poly_right" x="1599" y="2850">
+   <polygon points="1,-2 23,5 33,32 2,94 65,157 3,287 44,287 64,348 34,413 34,480 2,542 34,608 34,668 24,695 1,702 -22,695 -32,666 -32,480 0,414 -33,351 -32,223 -1,159 -63,94 -22,6"/>
+  </object>
+  <object id="84" name="co_poly_right" x="1792" y="3265">
+   <polygon points="0,-1 69,-35 188,-35 256,-1 219,30 192,30 128,63 64,30 31,30"/>
+  </object>
+  <object id="86" name="co_poly_right" x="1543" y="3613">
+   <polygon points="-7,4 121,4 143,11 153,36 143,60 120,66 57,99 -7,67 -29,60 -38,35 -29,11"/>
+  </object>
+ </objectgroup>
+</map>

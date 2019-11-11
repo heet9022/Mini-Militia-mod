@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="nf_action_button_front_text_padding_bottom">10.0dip</dimen>
+    <dimen name="nf_action_button_margin_sides">36.0dip</dimen>
+    <dimen name="nf_action_button_margin_sides_portrait">17.0dip</dimen>
+    <dimen name="nf_action_button_middle_section_width">163.0dip</dimen>
+    <dimen name="nf_action_button_shadow_text_padding_bottom">4.0dip</dimen>
+    <dimen name="nf_action_button_side_section_width">21.0dip</dimen>
+    <dimen name="nf_action_button_text_size">23.0dip</dimen>
+    <dimen name="nf_bg_border_bottom_component_height">38.0dip</dimen>
+    <dimen name="nf_bg_border_component_size">28.0dip</dimen>
+    <dimen name="nf_bg_border_margin_bottom">50.0dip</dimen>
+    <dimen name="nf_bg_border_margin_left">14.0dip</dimen>
+    <dimen name="nf_bg_border_margin_right">16.0dip</dimen>
+    <dimen name="nf_bg_border_margin_top">14.0dip</dimen>
+    <dimen name="nf_bg_component_size">20.0dip</dimen>
+    <dimen name="nf_bg_margin_bottom">40.0dip</dimen>
+    <dimen name="nf_bg_margin_left">36.0dip</dimen>
+    <dimen name="nf_bg_margin_right">36.0dip</dimen>
+    <dimen name="nf_bg_margin_top">42.0dip</dimen>
+    <dimen name="nf_bg_side_component_size">21.0dip</dimen>
+    <dimen name="nf_bottom_buttons_height">64.0dip</dimen>
+    <dimen name="nf_bottom_buttons_margin_bottom">-26.0dip</dimen>
+    <dimen name="nf_bottom_side_buttons_width">100.0dip</dimen>
+    <dimen name="nf_close_button_margin_right">-18.0dip</dimen>
+    <dimen name="nf_close_button_margin_top">22.0dip</dimen>
+    <dimen name="nf_close_button_size">45.0dip</dimen>
+    <dimen name="nf_content_margin">13.0dip</dimen>
+    <dimen name="nf_height_adjustment">14.0dip</dimen>
+    <dimen name="nf_news_image_height">48.0dip</dimen>
+    <dimen name="nf_news_image_width">128.0dip</dimen>
+</resources>
